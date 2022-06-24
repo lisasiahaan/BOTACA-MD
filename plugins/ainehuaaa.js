@@ -1,10 +1,11 @@
 let fs = require('fs')
 let handler = async (m) => {
-let huaaa = fs.readFileSync('./mp3/WhatsApp-Audio-2021-03-03-at-00.32.11.opus')
-conn.sendFile(m.chat, huaaa, '', '', m, true)
+let huaaa = fs.readFileSync('./mp3/AUD-20220623-WA0111.opus')
+')
+conn.sendFile(m.chat, bot, '', '', m, true)
 }
 
-handler.customPrefix = /^(hua|huaa|huaaa|huaaaa|huaaaaa|huua|huuaa|huuaaa|huuaaaa|huuua|huuuaa|huuuaaa|huuuaaaa)$/i
+handler.customPrefix = /^(bot|halo bot|p|bot kontol|bot gj|hai bot)$/i
 handler.command = new RegExp
 
 handler.limit = true
